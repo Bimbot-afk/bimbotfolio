@@ -21,6 +21,10 @@ body {
 
 .home {
     background-color: blue;
+    background-image: url("images/i1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .home_text {
@@ -30,17 +34,39 @@ body {
 }
 
 .about {
-    background-color: aqua;
+    background-image: url("images/i5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.about_text {
+.about_layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+    width: 200px;
+    height: 100%;
+    text-align: right;
+    border-right: white 1px solid;
+
+}
+
+.about_layer_text {
     color: green;
     max-width: 500px;
+    text-align: right;
     margin: 0 auto;
 }
 
 .projects {
     background-color: yellow;
+    background-image: url("images/i3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .projects_text {
@@ -51,6 +77,10 @@ body {
 
 .contact {
     background-color: violet;
+    background-image: url("images/i4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contact_text {
