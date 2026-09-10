@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: black;
 }
 
 .layer {
@@ -20,8 +21,6 @@ body {
 }
 
 .home {
-    background-color: blue;
-    background-image: url("images/i1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,57 +33,86 @@ body {
 }
 
 .about {
-    background-image: url("images/i5.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.pfp_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+}
+
+.pfp {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
 }
 
 .about_layer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     gap: 20px;
     padding: 20px;
     background-color: black;
-    width: 200px;
+    width: 1500px;
     height: 100%;
-    text-align: right;
+    text-align: left;
     border-right: white 1px solid;
-
 }
 
 .about_layer_text {
     color: green;
     max-width: 500px;
-    text-align: right;
+    text-align: left;
     margin: 0 auto;
 }
 
 .projects {
-    background-color: yellow;
-    background-image: url("images/i3.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.projects_container_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+.projects_container_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
 .projects_text {
-    color: black;
+    color: red;
     max-width: 500px;
     margin: 0 auto;
 }
 
 .contact {
-    background-color: violet;
-    background-image: url("images/i4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .contact_text {
-    color: white;
+    color: red;
     max-width: 500px;
     margin: 0 auto;
 }
