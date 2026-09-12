@@ -7,12 +7,12 @@
 body {
     font-family: sans-serif;
     background-color: whitesmoke;
-    width: calc(100% - 300px);
+    width: calc(100% - 267px);
 }
 
 .layer {
-    margin-left: 300px;
-    width: calc(100% - 300px);
+    margin-left: 267px;
+    width: calc(100% - 267px);
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .pfp_section {
@@ -93,7 +93,7 @@ body {
 }
 
 .about_layer h2 {
-    text-align: centerer;
+    text-align: center;
 }
 
 .about_layer_text_link {
@@ -141,18 +141,51 @@ body {
 .projects_container_2 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
+    justify-content: space-between;
     gap: 15px;
     padding: 20px;
     border: 1px solid gray;
-    height: 300px;
+    height: 400px;
     width: 300px;
-    background-color: transparent;
+    background-color: whitesmoke;
 }
 
-.projects_container_1 {
-    background-color: #e0e0e0;
+.projects_container_1 img,
+.projects_container_2 img {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-height: 140px;
+    object-fit: contain;
+}
+
+.project_1_button,
+.project_2_button {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: darkcyan;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.project_1_image_button,
+.project_2_image_button {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    max-height: 20px;
+    max-width: 20px;
+    object-fit: contain;
+}
+
+.project_1_text h2:not(.project_1_text>h2),
+.project_2_text h2:not(.project_2_text>h2) {
+    text-align: left;
 }
 
 .contact {
@@ -177,7 +210,7 @@ body {
     gap: 30px;
     padding: 30px;
     background-color: whitesmoke;
-    width: 300px;
+    width: 222px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -196,4 +229,23 @@ body {
 
 .nav_link:hover {
     opacity: 0.6;
+}
+
+.tape_colum {
+    width: 267px;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Arasaka_logo_lite.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: center top;
+    border-right: 1px solid gray;
+    z-index: 9;
+    border-left: 1px solid black;
 }
