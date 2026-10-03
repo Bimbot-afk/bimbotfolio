@@ -163,13 +163,22 @@ body {
     object-fit: contain;
 }
 
+.project_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: auto;
+}
+
 .project_1_button,
 .project_2_button,
 .project_3_button,
 .project_4_button {
+    display: flex;
     align-items: center;
-    text-align: center;
-    margin: 0 auto;
+    justify-content: center;
     width: 50px;
     height: 40px;
     border: none;
@@ -177,6 +186,10 @@ body {
     color: whitesmoke;
     cursor: pointer;
     border-radius: 20px;
+}
+
+.play_button {
+    background-color: #e50914; /* Red color for play button */
 }
 
 .project_1_image_button,
