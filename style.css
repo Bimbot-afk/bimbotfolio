@@ -138,7 +138,9 @@ body {
 }
 
 .projects_container_1,
-.projects_container_2 {
+.projects_container_2,
+.projects_container_3,
+.projects_container_4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -151,7 +153,9 @@ body {
 }
 
 .projects_container_1 img,
-.projects_container_2 img {
+.projects_container_2 img,
+.projects_container_3 img,
+.projects_container_4 img {
     align-items: center;
     text-align: center;
     width: 100%;
@@ -160,7 +164,9 @@ body {
 }
 
 .project_1_button,
-.project_2_button {
+.project_2_button,
+.project_3_button,
+.project_4_button {
     align-items: center;
     text-align: center;
     margin: 0 auto;
@@ -174,7 +180,9 @@ body {
 }
 
 .project_1_image_button,
-.project_2_image_button {
+.project_2_image_button,
+.project_3_image_button,
+.project_4_image_button {
     width: 20px;
     height: 20px;
     margin: 0 auto;
@@ -184,7 +192,9 @@ body {
 }
 
 .project_1_text h2:not(.project_1_text>h2),
-.project_2_text h2:not(.project_2_text>h2) {
+.project_2_text h2:not(.project_2_text>h2),
+.project_3_text h2:not(.project_3_text>h2),
+.project_4_text h2:not(.project_4_text>h2) {
     text-align: left;
 }
 
@@ -337,7 +347,9 @@ body {
     }
 
     .projects_container_1,
-    .projects_container_2 {
+    .projects_container_2,
+    .projects_container_3,
+    .projects_container_4 {
         width: 100%;
         max-width: 320px;
     }
