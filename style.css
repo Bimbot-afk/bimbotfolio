@@ -146,21 +146,32 @@ body {
     justify-content: space-between;
     gap: 15px;
     padding: 20px;
-    border: 1px solid gray;
-    height: 400px;
-    width: 300px;
-    background-color: whitesmoke;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    min-height: 520px;
+    width: 350px;
 }
 
-.projects_container_1 img,
-.projects_container_2 img,
-.projects_container_3 img,
-.projects_container_4 img {
-    align-items: center;
-    text-align: center;
+.projects_container_1:hover,
+.projects_container_2:hover,
+.projects_container_3:hover,
+.projects_container_4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project_1_image,
+.project_2_image,
+.project_3_image,
+.project_4_image {
     width: 100%;
-    max-height: 140px;
-    object-fit: contain;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .project_buttons {
@@ -179,17 +190,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     border: none;
-    background-color: darkcyan;
+    background-color: rgb(25, 151, 201);
     color: whitesmoke;
     cursor: pointer;
     border-radius: 20px;
 }
 
 .play_button {
-    background-color: #e50914; /* Red color for play button */
+    background-color: #e50914;
 }
 
 .project_1_image_button,
@@ -355,7 +366,7 @@ body {
         margin: 10px 0;
     }
 
-    .projects_text > h2 {
+    .projects_text>h2 {
         font-size: 40px;
     }
 
@@ -364,7 +375,7 @@ body {
     .projects_container_3,
     .projects_container_4 {
         width: 100%;
-        max-width: 320px;
+        max-width: 350px;
     }
 
     .contact {
