@@ -50,6 +50,13 @@ body {
     font-weight: bold;
 }
 
+.home_nickname {
+    font-size: 22px;
+    font-weight: 600;
+    color: #555;
+    margin-top: -6px;
+}
+
 .home_text_3 {
     font-size: 24px;
     font-weight: 600;
@@ -346,6 +353,10 @@ body {
 
     .home_text_2 {
         font-size: 40px;
+    }
+
+    .home_nickname {
+        font-size: 18px;
     }
 
     .home_text_3 {
